@@ -1,3 +1,4 @@
+//go:build tinygo
 // +build tinygo
 
 package vecty
@@ -53,6 +54,7 @@ func (h *HTML) tinyGoCannotIterateNilMaps() {
 }
 
 func tinyGoAssertCopier(c Component) {
+	return
 	_, ok := c.(Copier)
 	if ok {
 		return
