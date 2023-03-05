@@ -54,7 +54,7 @@ func (h *HTML) tinyGoCannotIterateNilMaps() {
 }
 
 func tinyGoAssertCopier(c Component) {
-	return
+	//return
 	_, ok := c.(Copier)
 	if ok {
 		return
